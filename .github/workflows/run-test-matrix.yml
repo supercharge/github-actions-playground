@@ -21,12 +21,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Start MongoDB v${{ matrix.mongodb-version }}
-      uses: superchargejs/mongodb-github-action@1.0.0
+      uses: superchargejs/mongodb-github-action@1.1.0
       with:
         mongodb-version: ${{ matrix.mongodb-version }}
 
     - name: Start Redis v${{ matrix.redis-version }}
-      uses: superchargejs/redis-github-action@1.0.0
+      uses: superchargejs/redis-github-action@1.1.0
       with:
         redis-version: ${{ matrix.redis-version }}
 
