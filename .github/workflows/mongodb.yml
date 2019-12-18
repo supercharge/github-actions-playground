@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Start MongoDB v${{ matrix.mongodb-version }}
-      uses: superchargejs/mongodb-github-action@1.0.0
+      uses: superchargejs/mongodb-github-action@1.1.0
       with:
         mongodb-version: ${{ matrix.mongodb-version }}
 
