@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [8, 10, 12, 13, 'latest']
+        node-version: [8, 10, 12, 13]
         mongodb-version: [4.0, 4.2]
         redis-version: [4, 5]
 
