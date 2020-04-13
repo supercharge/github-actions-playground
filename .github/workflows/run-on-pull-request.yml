@@ -1,5 +1,9 @@
-name: Redis
+name: Run on Pull Request
 
+# simple
+# on: [push, pull_request]
+
+# run on PRs against master
 on:
   push:
   pull_request:
